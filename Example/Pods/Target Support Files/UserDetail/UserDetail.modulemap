@@ -1,0 +1,6 @@
+framework module UserDetail {
+  umbrella header "UserDetail-umbrella.h"
+
+  export *
+  module * { export * }
+}

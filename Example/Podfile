@@ -2,9 +2,14 @@ use_frameworks!
 
 platform :ios, '9.0'
 
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/liuchongfaye/MDSpecs.git'
+
 target 'UserDetail_Example' do
   pod 'UserDetail', :path => '../'
 
+  pod 'MDHud'
+    
   target 'UserDetail_Tests' do
     inherit! :search_paths
 

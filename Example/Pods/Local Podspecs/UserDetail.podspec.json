@@ -1,0 +1,30 @@
+{
+  "name": "UserDetail",
+  "version": "0.1.0",
+  "summary": "A short description of UserDetail.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/liuchongfaye/UserDetail",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "liuchongfaye": "liuchong@vmovier.com"
+  },
+  "source": {
+    "git": "https://github.com/liuchongfaye/UserDetail.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "UserDetail/Classes/**/*",
+  "dependencies": {
+    "Masonry": [
+
+    ],
+    "MDHud": [
+
+    ]
+  }
+}

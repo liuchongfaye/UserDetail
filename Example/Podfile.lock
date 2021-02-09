@@ -1,0 +1,33 @@
+PODS:
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MDHud (0.1.1):
+    - MBProgressHUD
+  - UserDetail (0.1.0):
+    - Masonry
+    - MDHud
+
+DEPENDENCIES:
+  - MDHud
+  - UserDetail (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Masonry
+    - MBProgressHUD
+  https://github.com/liuchongfaye/MDSpecs.git:
+    - MDHud
+
+EXTERNAL SOURCES:
+  UserDetail:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MDHud: 739fd1fffb4bb0920e3728247eb20819164593a7
+  UserDetail: 21a85a8e2b58385e1183d7877c4cc182806f065b
+
+PODFILE CHECKSUM: 94e810b4daa25c713baf888a0071fd84fb0c2381
+
+COCOAPODS: 1.8.4
