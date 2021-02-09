@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'UserDetail_Example' do
+  pod 'UserDetail', :path => '../'
+
+  target 'UserDetail_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
